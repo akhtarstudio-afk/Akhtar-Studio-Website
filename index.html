@@ -1,590 +1,683 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Akhtar Studio | Landing Page Design for B2B SaaS Startups</title>
-<meta name="google-site-verification" content="7At8aBbkdFA7UmR92sqSZ2e-Yp129esLNG_bfrlba2Y" />
-<meta name="description" content="Conversion-focused landing pages for YC and B2B SaaS startups. We fix vague headlines, buried proof, and choice paralysis. $2,500-$3,500 | 10-day delivery."><link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="css/main-css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akhtar Studio | WordPress Design & Development for Canadian Businesses</title>
+  <meta name="description" content="WordPress design, development, WooCommerce, and brand identity for Canadian startups and growing businesses. Remote studio. Fast delivery. Fixed prices.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- FLOATING NAV -->
-<div id="nav-outer">
-  <nav id="nav">
-    <a href="/" class="nav-logo">
-      <img src="img/logo/ak-logo.png" style="width: 112px;">
+<!-- ===== NAV ===== -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="https://akhtarstudio.com/img/logo/ak-logo.png" alt="Akhtar Studio">
     </a>
-    <div class="nav-divider"></div>
     <ul class="nav-links">
-      <li><a href="#work">Work</a></li>
       <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
       <li><a href="#pricing">Pricing</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#about">About</a></li>
     </ul>
-    <div class="nav-spacer"></div>
-    <div class="nav-right">
-      <a href="https://cal.com/akhtarstudio" class="nav-cta" target="_blank">Lets Talk</a>
-      <button class="ham" id="ham" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+    <a href="https://cal.com/akhtarstudio" class="nav-cta-pill">Let's Talk</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#services" onclick="closeMob()">Services</a></li>
+    <li><a href="#work" onclick="closeMob()">Work</a></li>
+    <li><a href="#pricing" onclick="closeMob()">Pricing</a></li>
+    <li><a href="#faq" onclick="closeMob()">FAQ</a></li>
+    <li><a href="#about" onclick="closeMob()">About</a></li>
+  </ul>
+  <a href="https://cal.com/akhtarstudio" class="btn-primary">Book a Free Call →</a>
 </div>
 
-<!-- MOBILE NAV -->
-<div class="mob" id="mob">
-  <a href="#work">Work</a>
-  <a href="#services">Services</a>
-  <a href="#pricing">Pricing</a>
-  <a href="#faq">FAQ</a>
-  <a href="#about">About</a>
-  <a href="https://cal.com/akhtarstudio" class="mob-btn" target="_blank">Lets Talk →</a>
-</div>
-
-<!-- HERO -->
-<section id="hero">
-  <div class="wrap">
-    <!-- eyebrow pill -->
-    <div class="hero-eyebrow sr">
-      <div class="dot"></div>
-      <span>UI/UX &amp; Landing Page Design for SaaS</span>
-    </div>
-
-    <!-- Giant centered headline with orange underline -->
-    <div class="hero-h1-wrap sr d1">
-      <h1 class="hero-h1">
-        Your Landing Page Has <br>3 Seconds
-      </h1>
-      <!-- Animated orange underline SVG -->
-      <svg class="hero-underline" viewBox="0 0 900 18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M 0 9 Q 225 3 450 9 Q 675 15 900 9" class="uline-path"/>
-      </svg>
-    </div>
-
-    <!-- Subtitle -->
-    <p class="hero-sub sr d2">
-      We design landing pages that hook visitors in those critical first 3 seconds and turn them into paying customers. 
-    </p>
-
-    <!-- Single dark pill CTA -->
-    <div class="hero-cta-wrap sr d3">
-      <a href="https://cal.com/akhtarstudio" class="hero-btn-dark" target="_blank">
-        <span class="sparkle">✦</span> Get Free Consultation
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- DUAL-ROW MARQUEE -->
-<div class="dmarquee">
-
-  <!-- ROW 1 — scrolls left -->
-  <div class="dm-row dm-row-1">
-    <div class="dm-track dm-left">
-      <!-- set 1 -->
-      <span class="dm-text">Landing Pages</span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-text">That Convert</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Fast Delivery</span>
-      <span class="dm-text">Design That <em>Sells</em></span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-pill"><span class="dm-dot"></span>SaaS Focused</span>
-      <span class="dm-text">Not Just Sits There</span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-text">UI/UX For SaaS</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Conversion First</span>
-      <span class="dm-text">Pages That Work</span>
-      <span class="dm-diamond">◆</span>
-      <!-- set 2 (duplicate) -->
-      <span class="dm-text">Landing Pages</span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-text">That Convert</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Fast Delivery</span>
-      <span class="dm-text">Design That <em>Sells</em></span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-pill"><span class="dm-dot"></span>SaaS Focused</span>
-      <span class="dm-text">Not Just Sits There</span>
-      <span class="dm-diamond">◆</span>
-      <span class="dm-text">UI/UX For SaaS</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Conversion First</span>
-      <span class="dm-text">Pages That Work</span>
-      <span class="dm-diamond">◆</span>
-    </div>
-  </div>
-
-  <!-- ROW 2 — scrolls right (reverse) -->
-  <div class="dm-row dm-row-2">
-    <div class="dm-track dm-right">
-      <!-- set 1 -->
-      <span class="dm-text dm-dim">Conversion</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text">Startup Speed</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">Optimized</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">UI/UX Design</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Webflow Dev</span>
-      <span class="dm-text">Figma to Live</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">WordPress</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text">Results-Driven</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Remote Studio</span>
-      <span class="dm-text dm-dim">GSAP Animations</span>
-      <span class="dm-dash">—</span>
-      <!-- set 2 (duplicate) -->
-      <span class="dm-text dm-dim">Conversion</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text">Startup Speed</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">Optimized</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">UI/UX Design</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Webflow Dev</span>
-      <span class="dm-text">Figma to Live</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text dm-dim">WordPress</span>
-      <span class="dm-dash">—</span>
-      <span class="dm-text">Results-Driven</span>
-      <span class="dm-pill"><span class="dm-dot"></span>Remote Studio</span>
-      <span class="dm-text dm-dim">GSAP Animations</span>
-      <span class="dm-dash">—</span>
-    </div>
-  </div>
-
-</div>
-
-<!-- ABOUT -->
-<section class="sec" id="about">
-  <div class="wrap">
-    <div class="about-grid">
-      <div class="about-img-col sr">
-        <div class="about-img-frame">
-          <img src="img/about/Collaborate(1).png" alt="Akhtar Studio — UI/UX Design" loading="lazy"/>
-        </div>
-      </div>
-      <div class="about-text sr d1">
-        <div class="svc-label-pill">About Us</div>
-        <h2>Akhtar Studio<span class="period">.</span></h2>
-        <div class="about-bar"></div>
-        <p>We are a focused design studio specializing in landing page design and UI/UX for SaaS and tech companies. No large team, no unnecessary meetings, no wasted hours just quality work delivered fast.</p>
-        <p>We handle everything ourselves to deliver the best result. Our goal: your landing page converts visitors into customers whether you're pre-launch, fundraising, or scaling your user base.</p>
-        <div class="about-tags">
-          <span class="about-tag">SaaS Design</span>
-          <span class="about-tag">Landing Pages</span>
-          <span class="about-tag">UI/UX</span>
-          <span class="about-tag">Webflow</span>
-          <span class="about-tag">Fast Delivery</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="sec" id="services">
-  <div class="wrap">
-
-    <!-- Header -->
-    <div class="svc-header sr">
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
       <div>
-        <div class="svc-label-pill">Services</div>
-        <h2 class="svc-main-title">What We<br>Do Best<span class="period">.</span></h2>
-      </div>
-      <div class="svc-header-right">
-        <p>We craft digital experiences that turn visitors into customers — fast, precise, and conversion-focused.</p>
-        <a href="https://cal.com/akhtarstudio" class="btn-orange" target="_blank">Start a Project</a>
-      </div>
-    </div>
-
-    <!-- Accordion + Preview -->
-    <div class="svc-layout sr d1">
-
-      <!-- Left: accordion -->
-      <div class="svc-accordion">
-
-        <div class="svc-item active" data-svc="0">
-          <div class="svc-item-head">
-            <span class="svc-item-num">01</span>
-            <span class="svc-item-name">Landing Page Design</span>
-            <span class="svc-item-icon"><svg viewBox="0 0 14 14"><path d="M7 1v12M1 7h12"/></svg></span>
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for new projects &middot; Canada &amp; Worldwide
+        </div>
+        <h1>WordPress &amp; Design Studio for <em>Growing Businesses</em></h1>
+        <p class="hero-desc">We design and build WordPress sites, WooCommerce stores, and brand identities that look professional and perform. Fast delivery. Direct communication. Real results.</p>
+        <div class="hero-ctas">
+          <a href="https://cal.com/akhtarstudio" class="btn-primary">Book a Free Call →</a>
+          <a href="#work" class="btn-secondary">View Our Work</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">6+</div>
+            <div class="hero-stat-label">Years Experience</div>
           </div>
-          <div class="svc-item-body">
-            <div class="svc-item-body-inner">
-              <p class="svc-item-desc">High-converting pages built for SaaS and tech companies. Every headline, section, and CTA is engineered to turn visitors into paying customers.</p>
-              <div class="svc-item-tags">
-                <span class="svc-tag">Wireframing</span>
-                <span class="svc-tag">Figma</span>
-                <span class="svc-tag">Responsive</span>
-                <span class="svc-tag">CRO</span>
-              </div>
+          <div>
+            <div class="hero-stat-num">10</div>
+            <div class="hero-stat-label">Day Avg. Delivery</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">100%</div>
+            <div class="hero-stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-label">What We Build</div>
+          <div class="hero-tags">
+            <span class="hero-tag hot">WordPress Sites</span>
+            <span class="hero-tag">WooCommerce</span>
+            <span class="hero-tag hot">Landing Pages</span>
+            <span class="hero-tag">Logo Design</span>
+            <span class="hero-tag">Brand Identity</span>
+            <span class="hero-tag">Site Maintenance</span>
+          </div>
+          <div class="hero-tools">
+            <div class="hero-tools-label">Tools</div>
+            <div class="hero-tools-list">
+              <span>WordPress</span><span>·</span><span>Figma</span><span>·</span>
+              <span>WooCommerce</span><span>·</span><span>Elementor</span><span>·</span><span>ACF</span>
             </div>
           </div>
-        </div>
-
-        <div class="svc-item" data-svc="1">
-          <div class="svc-item-head">
-            <span class="svc-item-num">02</span>
-            <span class="svc-item-name">Webflow Development</span>
-            <span class="svc-item-icon"><svg viewBox="0 0 14 14"><path d="M7 1v12M1 7h12"/></svg></span>
-          </div>
-          <div class="svc-item-body">
-            <div class="svc-item-body-inner">
-              <p class="svc-item-desc">Pixel-perfect Webflow builds from your Figma. SEO-ready, CMS-powered, and fully editable by your team — launch in days, not months.</p>
-              <div class="svc-item-tags">
-                <span class="svc-tag">Webflow</span>
-                <span class="svc-tag">CMS</span>
-                <span class="svc-tag">SEO</span>
-                <span class="svc-tag">Handoff</span>
-              </div>
-            </div>
+          <div class="hero-card-footer">
+            <span class="avail-dot"></span>
+            <span>Currently accepting new clients &mdash; June 2026</span>
           </div>
         </div>
-
-        <div class="svc-item" data-svc="2">
-          <div class="svc-item-head">
-            <span class="svc-item-num">03</span>
-            <span class="svc-item-name">UI/UX Design</span>
-            <span class="svc-item-icon"><svg viewBox="0 0 14 14"><path d="M7 1v12M1 7h12"/></svg></span>
-          </div>
-          <div class="svc-item-body">
-            <div class="svc-item-body-inner">
-              <p class="svc-item-desc">Full product UI design from user flows to design systems. Delivered in Figma with developer handoff docs, interaction specs, and component libraries.</p>
-              <div class="svc-item-tags">
-                <span class="svc-tag">User Flows</span>
-                <span class="svc-tag">Design System</span>
-                <span class="svc-tag">Prototype</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right: live preview panel -->
-      <div class="svc-preview">
-        <div class="svc-preview-card" id="svcPreviewCard">
-          <div class="svc-active-bar"></div>
-          <div class="svc-preview-top">
-            <div class="svc-preview-tag" id="svcPreviewTag">Landing Page Design</div>
-            <div class="svc-preview-title" id="svcPreviewTitle">Built to convert visitors into customers</div>
-            <div class="svc-preview-sub" id="svcPreviewSub">Strategic wireframes, CRO-first layouts, and Figma files — ready for handoff.</div>
-          </div>
-          <div class="svc-preview-mock" id="svcPreviewMock">
-            <div class="svc-mock-bar w90"></div>
-            <div class="svc-mock-bar w60"></div>
-            <div class="svc-mock-bar w80"></div>
-            <div class="svc-mock-bar w40"></div>
-            <div class="svc-mock-btn"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- WORK / PORTFOLIO -->
-<section class="sec" id="work">
-  <div class="wrap">
-    <div class="work-header sr">
-      <div class="work-header-left">
-        <span class="label">Selected work</span>
-        <h2 class="sec-title">Work<span class="period">.</span></h2>
-      </div>
-      <a href="https://dribbble.com/akhtarstudio" target="_blank" class="work-view-all">
-        View all projects
-        <svg viewBox="0 0 14 14"><path d="M2 12L12 2M4 2h8v8"/></svg>
-      </a>
-    </div>
-  </div>
-
-  <!-- Horizontal scroll track -->
-  <div class="work-scroll-outer">
-    <div class="work-scroll" id="workScroll">
-
-      <a href="https://dribbble.com/akhtarstudio" target="_blank" class="pf-card sr">
-        <div class="pf-img"><div class="pf-mock pm1"><img src="img/portfolio/Ak-Studio-SEO Matics-Landing-Page.png"></div></div>
-        <div class="pf-info">
-          <div class="pf-arrow"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308a10.22 10.22 0 004.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.017-8.04 6.4a10.161 10.161 0 006.29 2.166c1.42 0 2.77-.29 4.006-.816zm-11.62-2.073c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12a28.038 28.038 0 00-.7-1.558c-5.016 1.505-9.886 1.445-10.32 1.44a10.201 10.201 0 002.283 6.943zm-2.516-8.39c.445.008 4.553.026 9.248-1.24C9.535 6.38 8.17 4.683 6.495 3.23a10.186 10.186 0 00-4.626 7.946zm7.27-9.038c1.72 1.483 3.088 3.224 3.853 5.247 3.886-1.456 5.527-3.667 5.727-3.934A10.17 10.17 0 0012 1.89c-1.63 0-3.17.387-4.53 1.07zm9.505 2.482c-.226.28-2.007 2.626-6.04 4.27.26.537.51 1.086.74 1.645.08.19.156.38.23.57 3.44-.432 6.86.26 7.197.33a10.2 10.2 0 00-2.127-6.814z"/></svg></div>
-        </div>
-      </a>
-
-      <a href="https://dribbble.com/akhtarstudio" target="_blank" class="pf-card sr d1">
-        <div class="pf-img"><div class="pf-mock pm2"><img src="img/portfolio/Ak-Studio-Guideless-Landing-Page.png"></div></div>
-        <div class="pf-info">
-          <div class="pf-arrow"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308a10.22 10.22 0 004.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.017-8.04 6.4a10.161 10.161 0 006.29 2.166c1.42 0 2.77-.29 4.006-.816zm-11.62-2.073c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12a28.038 28.038 0 00-.7-1.558c-5.016 1.505-9.886 1.445-10.32 1.44a10.201 10.201 0 002.283 6.943zm-2.516-8.39c.445.008 4.553.026 9.248-1.24C9.535 6.38 8.17 4.683 6.495 3.23a10.186 10.186 0 00-4.626 7.946zm7.27-9.038c1.72 1.483 3.088 3.224 3.853 5.247 3.886-1.456 5.527-3.667 5.727-3.934A10.17 10.17 0 0012 1.89c-1.63 0-3.17.387-4.53 1.07zm9.505 2.482c-.226.28-2.007 2.626-6.04 4.27.26.537.51 1.086.74 1.645.08.19.156.38.23.57 3.44-.432 6.86.26 7.197.33a10.2 10.2 0 00-2.127-6.814z"/></svg></div>
-        </div>
-      </a>
-
-      <a href="https://dribbble.com/akhtarstudio" target="_blank" class="pf-card sr d2">
-        <div class="pf-img"><div class="pf-mock pm3"><img src="img/portfolio/Ak-Studio-Nexivo-Landing-Page.png"></div></div>
-        <div class="pf-info">
-          <div class="pf-arrow"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308a10.22 10.22 0 004.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.017-8.04 6.4a10.161 10.161 0 006.29 2.166c1.42 0 2.77-.29 4.006-.816zm-11.62-2.073c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12a28.038 28.038 0 00-.7-1.558c-5.016 1.505-9.886 1.445-10.32 1.44a10.201 10.201 0 002.283 6.943zm-2.516-8.39c.445.008 4.553.026 9.248-1.24C9.535 6.38 8.17 4.683 6.495 3.23a10.186 10.186 0 00-4.626 7.946zm7.27-9.038c1.72 1.483 3.088 3.224 3.853 5.247 3.886-1.456 5.527-3.667 5.727-3.934A10.17 10.17 0 0012 1.89c-1.63 0-3.17.387-4.53 1.07zm9.505 2.482c-.226.28-2.007 2.626-6.04 4.27.26.537.51 1.086.74 1.645.08.19.156.38.23.57 3.44-.432 6.86.26 7.197.33a10.2 10.2 0 00-2.127-6.814z"/></svg></div>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <!-- Progress dots -->
-  <div class="wrap">
-    <div class="work-dots" id="workDots">
-      <div class="work-dot active" data-idx="0"></div>
-      <div class="work-dot" data-idx="1"></div>
-      <div class="work-dot" data-idx="2"></div>
-    </div>
-  </div>
-</section>
-
-<hr class="divider">
-
-<!-- PROCESS -->
-<section class="sec" id="process" style="background:var(--gray);overflow:hidden">
-  <div class="wrap">
-    <div class="sec-head sr">
-      <div class="sec-head-row">
-        <div>
-        <div class="svc-label-pill">How we work</div>        
-          <h2 class="sec-title">Our Process<span class="period">.</span></h2>
-        </div>
-        <p class="sec-sub">A tight, repeatable workflow that delivers quality on time every time.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="proc-outer">
-    <div class="proc-diagram">
-
-      <svg class="proc-svg" viewBox="0 0 1000 520" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
-        <!-- 01 top-center → 02 mid-left -->
-        <path d="M 460 185 C 400 220 300 245 275 265" class="proc-line"/>
-        <!-- 01 top-center → 03 mid-right -->
-        <path d="M 540 185 C 600 220 700 245 725 265" class="proc-line"/>
-        <!-- dots -->
-        <circle cx="460" cy="185" r="6" class="proc-dot"/>
-        <circle cx="540" cy="185" r="6" class="proc-dot"/>
-        <circle cx="275" cy="265" r="6" class="proc-dot"/>
-        <circle cx="725" cy="265" r="6" class="proc-dot"/>
-      </svg>
-
-      <!-- 01 — top center -->
-      <div class="proc-card proc-dark sr proc-top-center">
-        <div class="proc-step">01</div>
-        <h3 class="proc-title">Discovery &amp; Strategy</h3>
-        <p style="color: #ffffff;font-size: 13px;">We start with a detailed consultation to understand your product, goals, and target audience. 
-          Then we map out the user journey and create strategic wireframes that prioritize conversion and clarity.</p>
-      </div>
-
-      <!-- 02 — mid left -->
-      <div class="proc-card proc-orange sr d1 proc-mid-left">
-        <div class="proc-step">02</div>
-        <h3 class="proc-title">Design &amp; Refinement</h3>
-        <p style="color: #ffffff;font-size: 13px;">We craft high-fidelity designs aligned with your brand and conversion best practices. Through 2–3 revision rounds, we refine every detail until it's 
-          perfect ensuring your landing page drives results.</p>
-      </div>
-
-      <!-- 03 — mid right -->
-      <div class="proc-card proc-orange sr d2 proc-mid-right">
-        <div class="proc-step">03</div>
-        <h3 class="proc-title">Delivery &amp; Launch Support</h3>
-        <p style="color: #ffffff;font-size: 13px;">You receive complete Figma files, design specs, and all assets ready for development. 
-          We provide full handoff documentation and support to ensure smooth implementation and a successful launch.</p>
       </div>
     </div>
   </div>
 </section>
 
-<hr class="divider">
+<!-- ===== MARQUEE ===== -->
+<div class="marquee-wrap">
+  <!-- Row 1: left scroll -->
+  <div class="marquee-row">
+    <div class="marquee-track">
+      <!-- set 1 -->
+      <div class="marquee-item"><span class="mq-text muted">WordPress Sites</span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-text">That Convert</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Fast Delivery</span></div>
+      <div class="marquee-item"><span class="mq-text">Design That <em style="font-style:normal;color:var(--orange)">Sells</em></span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Canadian Clients</span></div>
+      <div class="marquee-item"><span class="mq-text muted">Not Just Looks Good</span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-text">WooCommerce</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Fixed Pricing</span></div>
+      <!-- set 2 duplicate -->
+      <div class="marquee-item"><span class="mq-text muted">WordPress Sites</span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-text">That Convert</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Fast Delivery</span></div>
+      <div class="marquee-item"><span class="mq-text">Design That <em style="font-style:normal;color:var(--orange)">Sells</em></span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Canadian Clients</span></div>
+      <div class="marquee-item"><span class="mq-text muted">Not Just Looks Good</span></div>
+      <div class="marquee-item"><span class="mq-dot">·</span></div>
+      <div class="marquee-item"><span class="mq-text">WooCommerce</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>Fixed Pricing</span></div>
+    </div>
+  </div>
+  <!-- Row 2: right scroll -->
+  <div class="marquee-row">
+    <div class="marquee-track reverse">
+      <!-- set 1 -->
+      <div class="marquee-item"><span class="mq-text muted">Brand Identity</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Startup Speed</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text muted">Optimized</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Logo Design</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>WordPress Dev</span></div>
+      <div class="marquee-item"><span class="mq-text muted">6+ Years Experience</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Remote Studio</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <!-- set 2 duplicate -->
+      <div class="marquee-item"><span class="mq-text muted">Brand Identity</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Startup Speed</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text muted">Optimized</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Logo Design</span></div>
+      <div class="marquee-item"><span class="mq-pill"><span class="dot"></span>WordPress Dev</span></div>
+      <div class="marquee-item"><span class="mq-text muted">6+ Years Experience</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+      <div class="marquee-item"><span class="mq-text">Remote Studio</span></div>
+      <div class="marquee-item"><span class="mq-dot">—</span></div>
+    </div>
+  </div>
+</div>
 
-<!-- PRICING -->
-<section class="sec sec-gray" id="pricing">
-  <div class="wrap">
-    <div class="sec-head sr">
-      <div class="sec-head-row">
-        <div>
-          <div class="svc-label-pill">Transparent costs</div>        
-          <h2 class="sec-title">Pricing<span class="period">.</span></h2>
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="services-head reveal">
+      <div>
+        <div class="section-label">What We Do</div>
+        <h2>Everything Your Business Needs Online</h2>
+      </div>
+      <p>From a brand new WordPress site to a full WooCommerce store  we handle design, development, and branding end to end.</p>
+    </div>
+    <div class="services-grid reveal">
+
+      <div class="svc-card">
+        <div class="svc-icon">🎯</div>
+        <h3>Landing Page Design</h3>
+        <p>High converting pages for product launches, campaigns, and lead generation. Every section designed to move visitors toward action — not just look good.</p>
+        <div class="svc-chips">
+          <span class="chip">Figma</span><span class="chip">CRO</span><span class="chip">Mobile-First</span>
         </div>
-        <p class="sec-sub">Fixed prices. ROI-first approach. No hidden costs or surprise invoices.</p>
+        <div class="svc-price">Starting at $600 CAD</div>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon">⚡</div>
+        <h3>WordPress Development</h3>
+        <p>Custom WordPress websites built from scratch  fast, clean, and easy for you to manage. Full site including theme, custom post types, plugins, and setup.</p>
+        <div class="svc-chips">
+          <span class="chip">Custom Themes</span><span class="chip">ACF</span><span class="chip">Elementor</span>
+        </div>
+        <div class="svc-price">Starting at $800 CAD</div>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon">🛒</div>
+        <h3>WooCommerce Stores</h3>
+        <p>Full e-commerce builds on WordPress  custom product layouts, checkout, payment gateways, and everything your store needs to sell online from day one.</p>
+        <div class="svc-chips">
+          <span class="chip">WooCommerce</span><span class="chip">Payments</span><span class="chip">Custom Pages</span>
+        </div>
+        <div class="svc-price">Starting at $1,200 CAD</div>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon">🔧</div>
+        <h3>WordPress Maintenance</h3>
+        <p>Monthly care plans: plugin updates, security monitoring, daily backups, speed optimization, and uptime monitoring. Your site stays fast and secure  always.</p>
+        <div class="svc-chips">
+          <span class="chip">Security</span><span class="chip">Backups</span><span class="chip">Updates</span>
+        </div>
+        <div class="svc-price">From $99 CAD/month</div>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon">✏️</div>
+        <h3>Logo Design</h3>
+        <p>Clean, professional logos that fit your business — wordmarks, icon marks, or a full logo suite. Delivered in all formats: SVG, PNG, PDF for print and digital.</p>
+        <div class="svc-chips">
+          <span class="chip">Figma</span><span class="chip">SVG/PNG/PDF</span><span class="chip">All Sizes</span>
+        </div>
+        <div class="svc-price">Starting at $250 CAD</div>
+      </div>
+
+      <div class="svc-card">
+        <div class="svc-icon">🎨</div>
+        <h3>Brand Identity</h3>
+        <p>Complete visual identity — logo, color palette, typography, and brand guidelines document. Everything you need to look consistent and credible across every channel.</p>
+        <div class="svc-chips">
+          <span class="chip">Logo</span><span class="chip">Color System</span><span class="chip">Guidelines</span>
+        </div>
+        <div class="svc-price">Starting at $500 CAD</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORK / CAROUSEL ===== -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="work-head reveal">
+      <div class="work-head-left">
+        <div class="section-label">Selected Work</div>
+        <h2>Projects We're Proud Of</h2>
+        <p>Recent WordPress, WooCommerce, and design builds.</p>
+      </div>
+      <div class="carousel-arrows">
+        <button class="carousel-btn" id="prevBtn" aria-label="Previous" disabled>←</button>
+        <button class="carousel-btn" id="nextBtn" aria-label="Next">→</button>
       </div>
     </div>
-    <div class="price-grid">
-      <div class="price-card sr">
-        <div>
-          <div class="price-name">Starter</div>
-          <div class="price-tagline">Perfect for MVPs and quick launches</div>
+
+    <div class="carousel-outer">
+      <div class="carousel-track" id="carouselTrack">
+
+        <!-- Card 1 -->
+        <div class="work-card">
+          <div class="work-img dark-bg">
+            <div class="work-img-content">
+            </div>
+          </div>
+          <div class="work-body">
+            <div class="work-type">WordPress · WooCommerce <span class="badge badge-live">Live</span></div>
+            <h3 class="work-title">adikosystems.com</h3>
+            <p class="work-desc">Full WooCommerce store built on WordPress with Elementor. Custom product layouts, checkout flow, and mobile-optimized design for industrial equipment supply.</p>
+            <a href="https://adikosystems.com" target="_blank" class="work-link">View Live Site →</a>
+          </div>
         </div>
-        <div class="price-amount">$2,000</div>
-        <div class="price-sep"></div>
-        <ul class="price-list">
-          <li>Single landing page design</li>
-          <li>Up to 3 key sections</li>
+
+        <!-- Card 2 -->
+        <div class="work-card">
+          <div class="work-img navy-bg">
+            <div class="work-img-content">
+            </div>
+          </div>
+          <div class="work-body">
+            <div class="work-type">WordPress · Custom Theme <span class="badge badge-live">Live Demo</span></div>
+            <h3 class="work-title">mizar.theevntor.com</h3>
+            <p class="work-desc">Custom real estate WordPress theme with property listings, ACF fields for property attributes, For Sale/For Rent filters, and a Figma-first design process.</p>
+            <a href="https://mizar.theevntor.com" target="_blank" class="work-link">View Live Demo →</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="work-card">
+          <div class="work-img green-bg">
+            <div class="work-img-content">
+            </div>
+          </div>
+          <div class="work-body">
+            <div class="work-type">Web Design · HTML/CSS <span class="badge badge-live">Live</span></div>
+            <h3 class="work-title">theevntor.com</h3>
+            <p class="work-desc">Wedding and event management site with a luxury design direction. Built with custom HTML/CSS, image galleries, testimonials, and a full booking inquiry flow.</p>
+            <a href="https://theevntor.com" target="_blank" class="work-link">View Live Site →</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="work-card">
+          <div class="work-img warm-bg">
+            <div class="work-img-content">
+            </div>
+          </div>
+          <div class="work-body">
+            <div class="work-type">Web Design · Customization <span class="badge badge-live">Live</span></div>
+            <h3 class="work-title">theinstastudio.com</h3>
+            <p class="work-desc">Wedding photography and studio website with portfolio showcase, service pages, and contact flow. Customized for brand identity and client experience.</p>
+            <a href="https://theinstastudio.com" target="_blank" class="work-link">View Live Site →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Dots -->
+    <div class="carousel-dots" id="carouselDots">
+      <button class="c-dot active" data-index="0"></button>
+      <button class="c-dot" data-index="1"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="process-head reveal">
+      <div class="section-label">How We Work</div>
+      <h2>Simple. Fast. No Surprises.</h2>
+      <p>A clear four-step process every client goes through — from first call to launch day.</p>
+    </div>
+    <div class="process-steps reveal">
+      <div class="pstep">
+        <div class="pstep-num">01</div>
+        <h3>Discovery Call</h3>
+        <p>A free 30-minute call. You tell us about your business, goals, and what you need. We ask the right questions — no obligations.</p>
+      </div>
+      <div class="pstep">
+        <div class="pstep-num">02</div>
+        <h3>Proposal & Scope</h3>
+        <p>We send a clear proposal: exact scope, timeline, and fixed price. No surprises mid-project. You approve and we start immediately.</p>
+      </div>
+      <div class="pstep">
+        <div class="pstep-num">03</div>
+        <h3>Design & Build</h3>
+        <p>We design in Figma first — you see exactly how it looks before a line of code is written. Then we build in WordPress with 2–3 revision rounds.</p>
+      </div>
+      <div class="pstep">
+        <div class="pstep-num">04</div>
+        <h3>Launch & Handoff</h3>
+        <p>We launch your site and hand over everything — files, credentials, and a walkthrough. You're in full control from day one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="pricing-head reveal">
+      <div class="section-label">Transparent Pricing</div>
+      <h2>Fixed Prices. No Hidden Costs.</h2>
+      <p>Clear packages for common project types. Need something custom? Book a call and we'll scope it together.</p>
+    </div>
+    <div class="pricing-grid reveal">
+
+      <div class="pcard">
+        <div class="pcard-name">Starter</div>
+        <div class="pcard-price"><sup>$</sup>600</div>
+        <div class="pcard-period">Starting at &middot; CAD</div>
+        <div class="pcard-div"></div>
+        <ul class="pcard-features">
+          <li>WordPress site — up to 5 pages</li>
+          <li>Mobile-responsive design</li>
+          <li>Contact form setup</li>
+          <li>Basic SEO setup</li>
           <li>2 revision rounds</li>
-          <li>Desktop + Mobile responsive</li>
-          <li>Figma files delivered</li>
-          <li>5–7 day delivery</li>
+          <li>7-day delivery</li>
+          <li>Free hosting guidance</li>
         </ul>
-        <a href="https://cal.com/akhtarstudio" class="price-btn pb-o" target="_blank">Get Started →</a>
+        <a href="https://cal.com/akhtarstudio" class="pcard-btn">Get Started →</a>
       </div>
-      <div class="price-card hot sr d1">
-        <div class="price-badge">POPULAR</div>
-        <div>
-          <div class="price-name">Professional</div>
-          <div class="price-tagline">Ideal for product launches &amp; fundraising</div>
-        </div>
-        <div class="price-amount">$3,500</div>
-        <div class="price-sep"></div>
-        <ul class="price-list">
-          <li>Full landing page (5–7 sections)</li>
-          <li>Complete user journey design</li>
+
+      <div class="pcard featured">
+        <div class="popular-tag">Most Popular</div>
+        <div class="pcard-name">Growth</div>
+        <div class="pcard-price"><sup>$</sup>1,800</div>
+        <div class="pcard-period">Starting at &middot; CAD</div>
+        <div class="pcard-div"></div>
+        <ul class="pcard-features">
+          <li>Full WordPress site — up to 10 pages</li>
+          <li>Custom landing page included</li>
+          <li>Logo + basic brand identity</li>
+          <li>WooCommerce (up to 20 products)</li>
           <li>3 revision rounds</li>
-          <li>Desktop, tablet &amp; mobile</li>
-          <li>Design system included</li>
-          <li>Copywriting guidance</li>
-          <li>7–10 day delivery</li>
+          <li>10-day delivery</li>
+          <li>30 days post-launch support</li>
         </ul>
-        <a href="https://cal.com/akhtarstudio" class="price-btn pb-s" target="_blank">Get Started →</a>
+        <a href="https://cal.com/akhtarstudio" class="pcard-btn">Get Started →</a>
       </div>
-      <div class="price-card sr d2">
-        <div>
-          <div class="price-name">Premium</div>
-          <div class="price-tagline">Complete system for scaling teams</div>
-        </div>
-        <div class="price-amount">$6,000</div>
-        <div class="price-sep"></div>
-        <ul class="price-list">
-          <li>Multiple page variants (2–3)</li>
-          <li>A/B testing designs</li>
-          <li>Unlimited revisions (within scope)</li>
-          <li>Full responsive design</li>
-          <li>Component library</li>
-          <li>Developer handoff docs</li>
-          <li>30-day post-launch support</li>
+
+      <div class="pcard">
+        <div class="pcard-name">Maintenance</div>
+        <div class="pcard-price"><sup>$</sup>99</div>
+        <div class="pcard-period">Per month &middot; CAD</div>
+        <div class="pcard-div"></div>
+        <ul class="pcard-features">
+          <li>Monthly plugin & theme updates</li>
+          <li>Weekly cloud backups</li>
+          <li>Security monitoring & firewall</li>
+          <li>24/7 uptime monitoring</li>
+          <li>1 hour of content edits/month</li>
+          <li>Monthly health report</li>
         </ul>
-        <a href="https://cal.com/akhtarstudio" class="price-btn pb-o" target="_blank">Get Started →</a>
+        <a href="https://cal.com/akhtarstudio" class="pcard-btn">Get Started →</a>
       </div>
+
     </div>
-    <p class="price-note sr">Free consultation · Response guaranteed in 12h · Non-binding offer</p>
+    <p class="pricing-note">All prices in CAD. Custom quotes available — <a href="https://cal.com/akhtarstudio">book a free call</a> to discuss your project.</p>
   </div>
 </section>
 
-<!-- CTA -->
-<section id="cta-sec">
-  <div class="wrap">
-    <div class="cta-inner">
-      <div class="cta-left sr">
-        <h2>Ready for<br><span>Your Project?</span></h2>
-        <p>Let's build something extraordinary together. Send me a request and get a response within 12 hours.</p>
-        <div class="cta-btns">
-          <a href="https://cal.com/akhtarstudio" class="btn-orange" target="_blank">Start a Project</a>
-          <a href="/cdn-cgi/l/email-protection#5d35383131321d3c3635293c2f2e2928393432733e3230" class="btn-outline" style="color:#fff;border-color:rgba(255,255,255,.2)">Get in Touch</a>
-        </div>
-      </div>
-      <div class="cta-right sr d1">
-        <div class="cta-card">
-          <div class="cta-card-title">Akhtar Studio</div>
-          <div class="cta-card-sub">UI/UX Design &amp; Webflow Development</div>
-          <div class="cta-tags">
-            <span class="cta-tag active">Available for projects</span>
-            <span class="cta-tag">Remote worldwide</span>
-            <span class="cta-tag">Fast delivery</span>
+<!-- ===== WHY / ABOUT ===== -->
+<section class="why" id="about">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-left reveal">
+        <div class="section-label">Why Akhtar Studio</div>
+        <h2>Direct. Fast. <em>Results-Focused.</em></h2>
+        <p>We're a small, focused studio — which means your project gets full attention from day one. No junior designers, no account managers, no handoffs to someone you've never met. Just quality work delivered fast.</p>
+        <div class="why-points">
+          <div class="why-point">
+            <div class="why-point-icon">🕐</div>
+            <div>
+              <h4>Fast Turnaround</h4>
+              <p>Most projects in 7–14 days. Faster live means faster results for your business.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">💬</div>
+            <div>
+              <h4>Direct Communication</h4>
+              <p>You talk directly to the person doing the work. No account managers, no delays.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">🔒</div>
+            <div>
+              <h4>Fixed Pricing</h4>
+              <p>The price we quote is the price you pay. No scope creep, no surprise invoices.</p>
+            </div>
           </div>
         </div>
-        <div class="cta-card">
-          <div class="cta-card-title">Start in 3 steps</div>
-          <div class="cta-card-sub" style="margin-top:12px;display:flex;flex-direction:column;gap:10px">
-            <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,.5)"><span style="width:22px;height:22px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">1</span>Book a free call</div>
-            <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,.5)"><span style="width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.1);color:rgba(255,255,255,.6);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">2</span>Share your brief</div>
-            <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:rgba(255,255,255,.5)"><span style="width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.1);color:rgba(255,255,255,.6);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">3</span>We start designing</div>
-          </div>
+      </div>
+      <div class="why-right">
+        <div class="wstat">
+          <div class="wstat-num">6<em>+</em></div>
+          <div class="wstat-label">Years of WordPress &amp; design experience</div>
+        </div>
+        <div class="wstat">
+          <div class="wstat-num"><em>10</em></div>
+          <div class="wstat-label">Day average delivery for full sites</div>
+        </div>
+        <div class="wstat">
+          <div class="wstat-num">100<em>%</em></div>
+          <div class="wstat-label">Client satisfaction, every project</div>
+        </div>
+        <div class="wstat">
+          <div class="wstat-num"><em>∞</em></div>
+          <div class="wstat-label">Revisions until you're happy (within scope)</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<hr class="divider">
-
-<!-- FAQ -->
-<section class="sec" id="faq">
-  <div class="wrap">
-    <div class="faq-wrap">
-      <div class="faq-left sr">
-        <div class="svc-label-pill">FAQs</div>
-        <h2>Plain answers.<br>No jargon<span class="period">.</span></h2>
-        <p>The most important answers, straight to the point. Still have questions?</p>
-        <a href="https://cal.com/akhtarstudio" class="btn-orange" target="_blank" style="display:inline-flex">Book a Free Call →</a>
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div class="faq-left reveal">
+        <div class="section-label">FAQ</div>
+        <h2>Plain Answers.<br>No Jargon.</h2>
+        <p>Everything you need to know before starting a project. Still have questions? Book a free call — no obligation, no sales pitch.</p>
+        <a href="https://cal.com/akhtarstudio" class="btn-primary">Book a Free Call →</a>
       </div>
-      <div class="faq-list sr d1">
+      <div class="faq-list reveal">
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">Why Akhtar Studio?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">We work with a small, focused team — which means your project gets full attention, not the B-team. Direct communication, no account managers, no delays. We don't stop until you're 100% happy with the result.</div></div>
+          <button class="faq-q">Do you work with Canadian clients remotely? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Yes — 100% remote. We work with clients across Canada, the US, and the UK. All communication happens via email, Zoom, or Slack. Time zones are never a problem — we're flexible and responsive within 24 hours.</div></div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">How long does a project take?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">Our motto: faster live, faster growth. Simple landing pages are often delivered in 5–7 days. Complex multi-page projects take 10–14 days. Timelines start from the day you share your brief.</div></div>
+          <button class="faq-q">How long does a project take? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Simple landing pages: 5–7 days. Full WordPress sites: 7–14 days. WooCommerce stores: 14–21 days depending on number of products. Timelines start from the day you share your brief and initial content.</div></div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">What does it cost?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">We have fixed pricing packages starting at $2,000 for a single landing page. Every package includes the full scope listed — no hidden costs. Book a free call if you need something custom.</div></div>
+          <button class="faq-q">Will I be able to manage the site myself after? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Absolutely. We build on WordPress so you can update content, add pages, and manage products without any coding. We also include a brief walkthrough once the project is handed over — you'll feel confident managing it yourself.</div></div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">What tools and technologies do you use?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">We design primarily in Figma and build in Webflow or WordPress. For custom animations we use GSAP. All designs are delivered with complete developer handoff documentation if you want to use your own dev team.</div></div>
+          <button class="faq-q">What do you need from me to get started? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">A brief covering: your business, goals, target audience, any sites you like the look of, your logo/brand assets if you have them, and rough content for each page. We'll guide you through the rest on our discovery call.</div></div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">Are your landing pages conversion-optimized?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">Yes — conversion optimization is baked into our process, not bolted on. We apply CRO principles to every section: headline clarity, visual hierarchy, social proof placement, CTA positioning, and mobile experience.</div></div>
+          <button class="faq-q">What are your payment terms? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">50% deposit upfront, 50% on project completion before final handoff. For maintenance plans, billing is monthly with no lock-in contracts. We accept Stripe, PayPal, and bank transfer.</div></div>
         </div>
+
         <div class="faq-item">
-          <button class="faq-btn"><span class="faq-q">Do you work with early-stage startups?</span><span class="faq-icon">+</span></button>
-          <div class="faq-ans"><div class="faq-ans-i">Absolutely — early-stage is our sweet spot. We understand that speed, budget, and clarity all matter before launch. The Starter package was designed precisely for pre-launch and MVP-stage companies.</div></div>
+          <button class="faq-q">Do you offer support after the site launches? <span class="faq-ico">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">All projects include 7 days of post-launch support for bug fixes at no extra cost. For ongoing care, our $99 CAD/month maintenance plan covers updates, backups, security monitoring, and one hour of edits per month.</div></div>
         </div>
+
       </div>
     </div>
   </div>
 </section>
 
-<hr class="divider">
-<!-- FOOTER -->
+<!-- ===== CTA ===== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <h2>Ready to Build Something?</h2>
+      <p>Book a free 30-minute call. No sales pitch — just a real conversation about your project.</p>
+      <div class="cta-btns">
+        <a href="https://cal.com/akhtarstudio" class="btn-white">Book a Free Call →</a>
+        <a href="mailto:hello@akhtarstudio.com" class="btn-ghost-white">Email Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
 <footer>
-
-  <!-- Logo -->
-  <div class="footer-logo-wrap">
-    <img src="img/logo/ak-logo.png" alt="Akhtar Studio" class="footer-logo-img"/>
-  </div>
-
-  <!-- Nav links -->
-  <nav class="footer-nav-links">
-    <a href="#services" class="active">Services</a>
-    <a href="#work">Work</a>
-    <a href="#process">Process</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#about">About</a>
-    <a href="#faq">FAQs</a>
-  </nav>
-
-  <!-- Orange divider line -->
-  <div class="footer-divider"></div>
-
-  <!-- Social icons -->
-  <div class="footer-socials">
-    <a href="https://www.linkedin.com/company/akhtar-studio/" target="_blank" class="fsoc" aria-label="LinkedIn">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-    </a>
-    <a href="https://dribbble.com/akhtarstudio" target="_blank" class="fsoc" aria-label="Dribbble">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308a10.22 10.22 0 004.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.017-8.04 6.4a10.161 10.161 0 006.29 2.166c1.42 0 2.77-.29 4.006-.816zm-11.62-2.073c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12a28.038 28.038 0 00-.7-1.558c-5.016 1.505-9.886 1.445-10.32 1.44a10.201 10.201 0 002.283 6.943zm-2.516-8.39c.445.008 4.553.026 9.248-1.24C9.535 6.38 8.17 4.683 6.495 3.23a10.186 10.186 0 00-4.626 7.946zm7.27-9.038c1.72 1.483 3.088 3.224 3.853 5.247 3.886-1.456 5.527-3.667 5.727-3.934A10.17 10.17 0 0012 1.89c-1.63 0-3.17.387-4.53 1.07zm9.505 2.482c-.226.28-2.007 2.626-6.04 4.27.26.537.51 1.086.74 1.645.08.19.156.38.23.57 3.44-.432 6.86.26 7.197.33a10.2 10.2 0 00-2.127-6.814z"/></svg>
-    </a>
-  </div>
-
-  <!-- Contact & copyright -->
-  <div class="footer-contact">
-    <p style="margin-top:10px">Copyright © 2026 Akhtar Studio. All Rights Reserved.</p>
+  <div class="container">
+    <div class="footer-top">
+      <div class="f-brand">
+        <img src="https://akhtarstudio.com/img/logo/ak-logo.png" alt="Akhtar Studio">
+        <p>WordPress design, development, and branding for Canadian businesses and startups. Remote. Fast. Reliable.</p>
+        <div class="f-socials">
+          <a href="https://www.linkedin.com/company/akhtar-studio/" target="_blank" class="f-social" aria-label="LinkedIn" style="font-size:12px;font-weight:700;font-family:sans-serif;">in</a>
+          <a href="https://dribbble.com/akhtarstudio" target="_blank" class="f-social" aria-label="Dribbble">🏀</a>
+          <a href="https://instagram.com/akhtarstudio" target="_blank" class="f-social" aria-label="Instagram">📸</a>
+        </div>
+      </div>
+      <div class="f-col">
+        <h4>Services</h4>
+        <ul class="f-links">
+          <li><a href="#services">Landing Page Design</a></li>
+          <li><a href="#services">WordPress Development</a></li>
+          <li><a href="#services">WooCommerce Stores</a></li>
+          <li><a href="#services">WordPress Maintenance</a></li>
+          <li><a href="#services">Logo Design</a></li>
+          <li><a href="#services">Brand Identity</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Company</h4>
+        <ul class="f-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Get In Touch</h4>
+        <ul class="f-links">
+          <li><a href="https://cal.com/akhtarstudio">Book a Free Call</a></li>
+          <li><a href="mailto:hello@akhtarstudio.com">hello@akhtarstudio.com</a></li>
+          <li><a href="https://dribbble.com/akhtarstudio">Dribbble Portfolio</a></li>
+        </ul>
+        <div class="f-avail">
+          <div class="f-avail-top">
+            <span class="f-avail-dot"></span>
+            <span>Available for Projects</span>
+          </div>
+          <div class="f-avail-sub">Accepting new clients &middot; June 2026</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Akhtar Studio. All rights reserved.</span>
+      <span>Remote worldwide &middot; Canada &middot; UK</span>
+    </div>
   </div>
 </footer>
-<script src="js/main-js.js"></script>
+
+<script>
+  // Mobile menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  function closeMob() { mobileMenu.classList.remove('open'); }
+
+  // ===== CAROUSEL =====
+  const track = document.getElementById('carouselTrack');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const dots = document.querySelectorAll('.c-dot');
+  const cards = track.querySelectorAll('.work-card');
+  const totalCards = cards.length;
+  const visibleCount = () => window.innerWidth <= 768 ? 1 : 2;
+  let current = 0;
+
+  function maxIndex() { return totalCards - visibleCount(); }
+
+  function updateCarousel() {
+    const vis = visibleCount();
+    const cardW = track.parentElement.offsetWidth;
+    const gap = 24;
+    const slideW = (cardW - gap * (vis - 1)) / vis;
+
+    // Size each card
+    cards.forEach(c => { c.style.flex = `0 0 ${slideW}px`; });
+
+    const offset = current * (slideW + gap);
+    track.style.transform = `translateX(-${offset}px)`;
+
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current >= maxIndex();
+
+    // Update dots — one dot per page
+    const pages = Math.ceil(totalCards / vis);
+    const activePage = Math.floor(current / 1);
+    dots.forEach((d, i) => d.classList.toggle('active', i === Math.min(current, pages - 1)));
+  }
+
+  prevBtn.addEventListener('click', () => { if (current > 0) { current--; updateCarousel(); } });
+  nextBtn.addEventListener('click', () => { if (current < maxIndex()) { current++; updateCarousel(); } });
+  dots.forEach(d => {
+    d.addEventListener('click', () => { current = parseInt(d.dataset.index); updateCarousel(); });
+  });
+
+  // Touch/swipe support
+  let touchStartX = 0;
+  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend', e => {
+    const diff = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0 && current < maxIndex()) { current++; updateCarousel(); }
+      if (diff < 0 && current > 0) { current--; updateCarousel(); }
+    }
+  });
+
+  window.addEventListener('resize', updateCarousel);
+  updateCarousel();
+
+  // Scroll reveal
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+</script>
+
 </body>
 </html>
