@@ -267,10 +267,10 @@
       aspect-ratio: 16/9; display: flex; align-items: center;
       justify-content: center; position: relative; overflow: hidden;
     }
-    .work-img.dark-bg { background-image: url(img/portfolio/adikosystem.png); background-size: contain; background-repeat: no-repeat; }
-    .work-img.navy-bg { background-image: url(img/portfolio/mizarconstruction.png); background-size: contain; background-repeat: no-repeat; }
-    .work-img.green-bg { background-image: url(img/portfolio/theeventor.png); background-size: contain; background-repeat: no-repeat; }
-    .work-img.warm-bg { background-image: url(img/portfolio/theinstastudio.png); background-size: contain; background-repeat: no-repeat; }
+    .work-img.dark-bg { background-image: url('/img/portfolio/adikosystem.png'); background-size: contain; background-repeat: no-repeat; }
+    .work-img.navy-bg { background-image: url('/img/portfolio/mizarconstruction.png'); background-size: contain; background-repeat: no-repeat; }
+    .work-img.green-bg { background-image: url('/img/portfolio/theeventor.png'); background-size: contain; background-repeat: no-repeat; }
+    .work-img.warm-bg { background-image: url('/img/portfolio/theinstastudio.png'); background-size: contain; background-repeat: no-repeat; }
     .work-img-content { text-align: center; }
     .work-img-title { font-family: var(--font-display); font-size: 26px; font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 6px; }
     .work-img-sub { font-size: 12px; color: rgba(255,255,255,0.38); text-transform: uppercase; letter-spacing: 0.1em; }
